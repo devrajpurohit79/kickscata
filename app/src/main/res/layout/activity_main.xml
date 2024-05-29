@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="@android:color/black"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="kicksCatalog"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_below="@id/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- CardView 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="98dp"
+                        android:layout_height="79dp"
+
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_1" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="184dp"
+                        android:layout_height="83dp"
+                        android:text="adidas"
+                        android:textAlignment="center"
+                        android:paddingTop="12dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="98dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="155dp"
+                        android:layout_height="73dp"
+                        android:textAlignment="center"
+                        android:paddingTop="12dp"
+                        android:text="Nike"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 3 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="97dp"
+                        android:layout_height="82dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_3" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="187dp"
+                        android:layout_height="83dp"
+                        android:paddingTop="12dp"
+                        android:text="Reebok"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 4 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="98dp"
+                        android:layout_height="91dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_4" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="181dp"
+                        android:layout_height="84dp"
+                        android:textAlignment="center"
+                        android:paddingTop="12dp"
+                        android:text="Yeezy"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 5 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="98dp"
+                        android:layout_height="78dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_5" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="174dp"
+                        android:layout_height="81dp"
+                        android:paddingTop="12dp"
+                        android:text="Dior"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 6 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@android:color/black"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="98dp"
+                        android:layout_height="78dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/img_6" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="184dp"
+                        android:layout_height="76dp"
+                        android:paddingTop="12dp"
+                        android:text="Chanel"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

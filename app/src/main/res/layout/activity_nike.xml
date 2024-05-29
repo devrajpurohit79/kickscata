@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Addidas">
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="424dp"
+        android:layout_height="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_14" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="200dp"
+        tools:layout_editor_absoluteX="-148dp"
+        tools:layout_editor_absoluteY="-48dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Image and Text Section -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="166dp"
+                android:layout_marginBottom="8dp"
+
+                android:src="@drawable/img_13" />
+
+
+            <TextView
+                android:layout_width="383dp"
+                android:layout_height="62dp"
+                android:layout_marginBottom="16dp"
+                android:text="Nike x Travis scott "
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <!-- Repeat for more images and text -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:layout_marginBottom="16dp"
+                android:text="a collaboration between nike and Travis Scoot, is one of the most expensive, awaited and recognizable sneakers in recent years."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="16dp"
+                android:text="The first collaboration"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="269dp"
+                android:layout_height="175dp"
+                android:layout_marginBottom="8dp"
+
+                android:src="@drawable/img_15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Travis Scott x Air Jordan 1 Retro High OG Mocha:
+
+"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="This sneaker features a distinctive design with a mix of white, black, and dark mocha colors, highlighted by the reverse Swoosh logo on the lateral side.
+            "
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Release Date: May 11, 2019
+Retail Price: $175 USD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Resale price"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="$1,000 to $2,500 USD or more."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="277dp"
+                android:layout_height="207dp"
+                android:layout_marginBottom="8dp"
+
+                android:src="@drawable/img_16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Travis Scott x Nike Air Force 1 Low Cactus Jack:"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="This version of the Air Force 1 Low features a patchwork design with various materials and patterns, including corduroy, canvas, and leather. It includes removable lace covers and unique detailing.
+"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="16dp"
+                android:text="Release Date: November 16, 2019
+
+Retail Price: $160 USD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="16dp"
+                android:text="Resale Price: Generally between $600 and $1,200 USD"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="277dp"
+                android:layout_height="207dp"
+                android:layout_marginBottom="8dp"
+
+                android:src="@drawable/img_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Travis Scott x Nike Dunk Low PlayStation"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Released in an extremely limited quantity, this Dunk Low features a black and white color scheme with PlayStation branding. It was part of a special collaboration with Sony."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Release Date: February 15, 2021
+Retail Price: Not available to the general public; distributed through a raffle."
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Resale Price: Due to its rarity, resale prices can exceed $10,000 USD."
+                android:textSize="20sp" />
+
+
+
+            <!-- Add more sections as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
